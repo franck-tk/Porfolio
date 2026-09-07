@@ -147,7 +147,7 @@
       <div class="about-grid">
         <div class="about-image">
           <div class="about-image-wrapper">
-            <img src="assets/images/franck.jpeg" alt="Franck Todjoum" class="about-img">
+            <img src="assets/images/WhatsApp Image 2026-09-07 at 12.36.28 PM.jpeg" alt="Franck Todjoum" class="about-img">
             <div class="experience-badge">
               <span class="exp-number">2+</span>
               <span class="exp-text">Ans d'expérience</span>
@@ -428,23 +428,28 @@
           </div>
         </div>
         <div class="contact-form-wrapper">
-          <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <div class="form-group">
-              <input type="text" name="name" placeholder="Votre nom" required>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" placeholder="Votre email" required>
-            </div>
-            <div class="form-group">
-              <input type="text" name="subject" placeholder="Sujet" required>
-            </div>
-            <div class="form-group">
-              <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-full">
-              <i class="fas fa-paper-plane"></i> Envoyer le message
-            </button>
-          </form>
+          <div class="contact-form-wrapper">
+  <form class="contact-form" action="mailto:todjoumfranck@gmail.com" method="POST" enctype="text/plain">
+    <div class="form-group">
+      <input type="text" name="Nom" placeholder="Votre nom" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="Email" placeholder="Votre email" required>
+    </div>
+    <div class="form-group">
+      <input type="text" name="Sujet" placeholder="Sujet du message" required>
+    </div>
+    <div class="form-group">
+      <textarea name="Message" rows="5" placeholder="Votre message..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-full">
+      <i class="fas fa-paper-plane"></i> Envoyer via Gmail
+    </button>
+  </form>
+  <p style="text-align: center; color: var(--text-secondary); font-size: 0.85rem; margin-top: 15px;">
+    💡 Le formulaire ouvrira votre application email avec le message pré-rempli
+  </p>
+</div>
         </div>
       </div>
     </div>
