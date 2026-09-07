@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Franck Todjoum - UI/UX Designer & Développeur Front-End. Je crée des interfaces modernes et performantes.">
+  <title>Franck Todjoum | UI/UX Designer & Développeur Front-End</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <nav class="container nav-container">
+      <a href="index.html" class="logo">Franck<span>TK</span></a>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#accueil" class="nav-link">Accueil</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="projets.html" class="nav-link">Projets</a></li>
+        <li><a href="#contact" class="nav-link btn-primary">Me contacter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="accueil" class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Disponible pour de nouveaux projets
+        </div>
+        <h1 class="hero-title">
+          UI/UX Designer &<br>
+          <span class="gradient-text">Développeur Front-End</span>
+        </h1>
+        <p class="hero-subtitle">
+          Je conçois et développe des <strong>interfaces modernes</strong>, 
+          <strong>performantes</strong> et <strong>centrées utilisateur</strong> 
+          qui transforment vos idées en expériences digitales exceptionnelles.
+        </p>
+        <div class="hero-buttons">
+          <a href="projets.html" class="btn btn-primary btn-lg">
+            <i class="fas fa-rocket"></i> Voir mes projets
+          </a>
+          <a href="#contact" class="btn btn-outline btn-lg">
+            <i class="fas fa-envelope"></i> Discutons de votre projet
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projets réalisés</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Clients satisfaits</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Disponibilité</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/franck.jpeg" alt="Franck Todjoum - UI/UX Designer" class="hero-img">
+          <div class="floating-card card-1">
+            <i class="fas fa-code"></i>
+            <span>Code propre</span>
+          </div>
+          <div class="floating-card card-2">
+            <i class="fas fa-paint-brush"></i>
+            <span>Design UX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Mes Expertises</span>
+        <h2 class="section-title">Ce que je peux faire pour vous</h2>
+        <p class="section-subtitle">
+          Une double compétence design et développement pour des projets réussis
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Conception d'interfaces modernes et intuitives centrées sur l'expérience utilisateur. Wireframes, prototypes interactifs et design systems.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Maquettes Figma</li>
+            <li><i class="fas fa-check"></i> Prototypage interactif</li>
+            <li><i class="fas fa-check"></i> Design System</li>
+            <li><i class="fas fa-check"></i> User Research</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Développement Front-End</h3>
+          <p>Développement d'interfaces web performantes, responsives et accessibles avec les dernières technologies.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> HTML5/CSS3/JavaScript</li>
+            <li><i class="fas fa-check"></i> React & Tailwind CSS</li>
+            <li><i class="fas fa-check"></i> Sites responsives</li>
+            <li><i class="fas fa-check"></i> Optimisation SEO</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Applications Web</h3>
+          <p>Création d'applications web interactives et fonctionnelles pour répondre à vos besoins spécifiques.</p>
+          <ul class="service-list">
+            <li><i class="fas fa-check"></i> Applications CRUD</li>
+            <li><i class="fas fa-check"></i> Interfaces dynamiques</li>
+            <li><i class="fas fa-check"></i> Intégration API</li>
+            <li><i class="fas fa-check"></i> Tests & Déploiement</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-image-wrapper">
+            <img src="assets/images/franck.jpeg" alt="Franck Todjoum" class="about-img">
+            <div class="experience-badge">
+              <span class="exp-number">2+</span>
+              <span class="exp-text">Ans d'expérience</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag">À Propos de Moi</span>
+          <h2 class="section-title">Passionné par le design et le code</h2>
+          <p class="about-text">
+            Je suis <strong>Franck Todjoum</strong>, UI/UX Designer et Développeur Front-End basé au Cameroun. 
+            Ma passion est de créer des expériences digitales qui allient <strong>esthétique</strong> et 
+            <strong>fonctionnalité</strong>.
+          </p>
+          <p class="about-text">
+            Avec une double compétence en design et développement, je comprends les enjeux techniques 
+            dès la phase de conception. Cela me permet de créer des interfaces non seulement belles, 
+            mais aussi <strong>réalistes et performantes</strong>.
+          </p>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Figma / UI Design</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML/CSS/JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React / Tailwind</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">
+            Travaillons ensemble <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Mes Projets Récents</h2>
+        <p class="section-subtitle">
+          Découvrez une sélection de mes réalisations en design et développement
+        </p>
+      </div>
+      <div class="projects-grid">
+        
+        <!-- TKflow App -->
+        <a href="pages/tkflow-app.html" class="project-card">
+          <div class="project-image">
+            <img src="assets/images/Capture d’écran 2026-09-06 232214.png" alt="TKflow Application">
+            <div class="project-overlay">
+              <span class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></span>
+            </div>    
+          </div>
+          <div class="project-content">
+            <h3>TKflow - Application Web</h3>
+            <p>Plateforme de location de voitures avec chauffeur. Système de réservation en ligne.</p>
+            <div class="project-tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Angel Cleaner V1 -->
+        <a href="pages/angel-cleaner-v1.html" class="project-card">
+          <div class="project-image">
+            <img src="assets/images/bleu.png" alt="Angel Cleaner V1">
+            <div class="project-overlay">
+              <span class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Angel Cleaner - V1</h3>
+            <p>Design UI/UX pour pressing - Version bleue élégante et professionnelle.</p>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI Design</span>
+              <span class="tag">Branding</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Angel Cleaner V2 -->
+        <a href="pages/angel-cleaner-v2.html" class="project-card">
+          <div class="project-image">
+            <img src="assets/images/vert.png" alt="Angel Cleaner V2">
+            <div class="project-overlay">
+              <span class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Angel Cleaner - V2</h3>
+            <p>Refonte du design - Version verte moderne avec approche éco-responsable.</p>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI/UX</span>
+              <span class="tag">Design System</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- TKflow Design -->
+        <a href="pages/tkflow-design.html" class="project-card">
+          <div class="project-image">
+            <img src="assets/images/WhatsApp Image 2026-09-06 at 8.27.53 PM.jpeg" alt="TKflow Design">
+            <div class="project-overlay">
+              <span class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>TKflow - Maquette UI</h3>
+            <p>Design system complet pour location de voitures. Thème sombre premium.</p>
+            <div class="project-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">UI Design</span>
+              <span class="tag">Prototype</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- Dice Game -->
+        <a href="pages/dice.html" class="project-card">
+          <div class="project-image">
+            <img src="assets/images/Dice.png" alt="Dice Game">
+            <div class="project-overlay">
+              <span class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Dice Game</h3>
+            <p>Jeu interactif en JavaScript pur avec génération aléatoire.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+        </a>
+
+          <!-- Figma Design -->
+  <a href="pages/figma-design.html" class="project-card">
+    <div class="project-image">
+      <img src="assets/images/figma.png" alt="Figma Design">
+      <div class="project-overlay">
+        <span class="project-link">Voir le projet <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </div>
+    <div class="project-content">
+      <h3>Figma UI/UX Design</h3>
+      <p>Conception d'interface e-commerce avec prototypage.</p>
+      <div class="project-tags">
+        <span class="tag">Figma</span>
+        <span class="tag">UI/UX</span>
+      </div>
+    </div>
+  </a>
+
+      </div>
+      <div class="text-center" style="margin-top: 50px;">
+        <a href="projets.html" class="btn btn-outline btn-lg">
+          Voir tous les projets <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Me Section -->
+  <section class="why-choose">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pourquoi Moi</span>
+        <h2 class="section-title">Pourquoi travailler avec moi ?</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Rapide & Efficace</h3>
+          <p>Respect des délais et livraison dans les temps. Communication régulière tout au long du projet.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fas fa-gem"></i>
+          </div>
+          <h3>Qualité Premium</h3>
+          <p>Code propre, design soigné et attention aux détails pour un résultat professionnel.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Support Continu</h3>
+          <p>Disponibilité après livraison pour ajustements et maintenance de vos projets.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Design & Code</h3>
+          <p>Double compétence pour des projets cohérents de la maquette au déploiement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-tag">Contact</span>
+          <h2 class="section-title">Discutons de votre projet</h2>
+          <p class="contact-text">
+            Vous avez un projet en tête ? Je suis là pour vous aider à le concrétiser. 
+            N'hésitez pas à me contacter pour en discuter.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:todjoumfranck@gmail.com">todjoumfranck@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/franck-todjoum-9491383b7/" target="_blank">franck-todjoum</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div>
+                <h4>GitHub</h4>
+                <a href="https://github.com/franck-tk" target="_blank">franck-tk</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Localisation</h4>
+                <span>Douala, Cameroun</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Votre email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Sujet" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Envoyer le message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Franck<span>TK</span></a>
+          <p>UI/UX Designer & Développeur Front-End passionné par la création d'expériences digitales exceptionnelles.</p>
+          <div class="social-links">
+            <a href="https://github.com/franck-tk" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/franck-todjoum-9491383b7/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:todjoumfranck@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#about">À propos</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="projets.html">Projets</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">UI/UX Design</a></li>
+              <li><a href="#services">Développement Web</a></li>
+              <li><a href="#services">Applications Web</a></li>
+              <li><a href="#contact">Me contacter</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact</h4>
+            <ul>
+              <li><i class="fas fa-envelope"></i> todjoumfranck@gmail.com</li>
+              <li><i class="fas fa-map-marker-alt"></i> Douala, Cameroun</li>
+              <li><i class="fas fa-clock"></i> Disponible 24/7</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Franck Todjoum. Tous droits réservés.</p>
+        <p>Conçu et développé avec <i class="fas fa-heart"></i> au Cameroun</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

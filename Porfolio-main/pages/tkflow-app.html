@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TKflow - Application | Franck Todjoum</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #fff; line-height: 1.6; }
+    header { background: rgba(30, 41, 59, 0.95); padding: 15px 0; position: fixed; width: 100%; top: 0; z-index: 1000; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    nav { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 1.5rem; font-weight: bold; color: #6366f1; text-decoration: none; }
+    nav ul { display: flex; list-style: none; gap: 30px; }
+    nav a { color: #e2e8f0; text-decoration: none; transition: color 0.3s; }
+    nav a:hover { color: #6366f1; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 140px 20px 60px; }
+    .back-link { display: inline-block; color: #94a3b8; text-decoration: none; margin-bottom: 30px; }
+    .back-link:hover { color: #6366f1; }
+    .hero-img { width: 100%; border-radius: 12px; margin-bottom: 40px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+    h1 { font-size: 2.5rem; margin-bottom: 15px; }
+    .subtitle { color: #94a3b8; font-size: 1.1rem; margin-bottom: 40px; }
+    .section { margin-bottom: 40px; }
+    .section h2 { font-size: 1.5rem; color: #f97316; margin-bottom: 15px; }
+    .section p, .section li { color: #cbd5e1; margin-bottom: 10px; }
+    .section ul { padding-left: 20px; }
+    .tags { display: flex; gap: 10px; flex-wrap: wrap; margin: 30px 0; }
+    .tag { background: rgba(249, 115, 22, 0.2); color: #fbbf24; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+    .btn-live { display: inline-block; background: linear-gradient(135deg, #f97316 0%, #ea580c 100%); color: #fff; padding: 16px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: transform 0.3s, box-shadow 0.3s; margin-top: 10px; box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4); }
+    .btn-live:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(249, 115, 22, 0.6); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+    .feature { background: rgba(249, 115, 22, 0.1); padding: 20px; border-radius: 8px; border-left: 3px solid #f97316; }
+    .feature h3 { color: #fbbf24; margin-bottom: 10px; font-size: 1.1rem; }
+    footer { text-align: center; padding: 40px 20px; color: #64748b; border-top: 1px solid #1e293b; margin-top: 60px; }
+    @media (max-width: 768px) { h1 { font-size: 2rem; } nav ul { display: none; } }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="../index.html" class="logo">Franck TK</a>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../projets.html">Projets</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <a href="../projets.html" class="back-link">← Retour aux projets</a>
+    
+    <h1>TKflow - Application Web</h1>
+    <p class="subtitle">Plateforme de location de voitures avec chauffeur</p>
+
+    <img src="../assets/images/Capture d’écran 2026-09-06 232214.png" alt="TKflow Application" class="hero-img">
+
+    <div class="tags">
+      <span class="tag">HTML5</span>
+      <span class="tag">CSS3</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">Responsive Design</span>
+      <span class="tag">UI/UX</span>
+    </div>
+
+    <div class="section">
+      <h2>🎯 Présentation</h2>
+      <p>TKflow est une plateforme complète de location de voitures avec chauffeur, conçue pour offrir une expérience de réservation fluide et professionnelle. L'application permet aux utilisateurs de réserver des véhicules haut de gamme pour leurs déplacements professionnels ou personnels.</p>
+    </div>
+
+    <div class="section">
+      <h2>✨ Fonctionnalités principales</h2>
+      <div class="features">
+        <div class="feature">
+          <h3> Réservation en ligne</h3>
+          <p>Système de réservation intuitif avec sélection de véhicule, date et lieu</p>
+        </div>
+        <div class="feature">
+          <h3> Chauffeurs professionnels</h3>
+          <p>Mise en avant de l'équipe de chauffeurs qualifiés et expérimentés</p>
+        </div>
+        <div class="feature">
+          <h3> Design responsive</h3>
+          <p>Interface adaptée à tous les appareils (mobile, tablette, desktop)</p>
+        </div>
+        <div class="feature">
+          <h3>⭐ Avis clients</h3>
+          <p>Système de témoignages et notation pour renforcer la confiance</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎨 Design & UX</h2>
+      <p>L'interface utilise un thème sombre premium avec des accents orange pour créer une identité visuelle forte et professionnelle. La navigation est optimisée pour une conversion maximale avec des call-to-action clairement visibles.</p>
+    </div>
+
+    <div class="section">
+      <h2>🚀 Voir l'application en ligne</h2>
+      <p>Cliquez ci-dessous pour découvrir l'application fonctionnelle :</p>
+      <a href="https://d4fc1afc-c641-4ae5-b5a7-3b4fb57faccb-00-q3vpvj97okx7.riker.replit.dev/index.html" target="_blank" class="btn-live"> Voir sur Replit</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Franck Todjoum</p>
+  </footer>
+
+</body>
+</html>
